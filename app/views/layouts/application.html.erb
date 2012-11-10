@@ -8,7 +8,12 @@
 </head>
 <body>
  <div>
- 	<%= link_to "Sign in with Twitter", '/auth/twitter?screen_name=TomDahlman'%>
+ 	<%= link_to "Sign in with Twitter", '/auth/twitter'%>
+ 	Current session id is: <%= session[:user_id] %>
+ </div>
+ <div>
+ 	<%= session[:user_id] = nil %>
+ 	<%= link_to "Sign Out of Twitter", '/streams'%>
  </div>
 <%= yield %>
 

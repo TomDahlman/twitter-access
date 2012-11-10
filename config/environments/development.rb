@@ -35,6 +35,6 @@ Build1::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 
-  TWITTER_KEY = '5nXwpUUV7nZnhPYUnE5YA'
-  TWITTER_SECRET = '8BQWOjhP9wNDsLhMRxtAobI31InkjtreGwj564s'
+  # TWITTER_KEY = '5nXwpUUV7nZnhPYUnE5YA'
+  # TWITTER_SECRET = '8BQWOjhP9wNDsLhMRxtAobI31InkjtreGwj564s'
 end
